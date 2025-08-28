@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freshers’ After Party 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loader">
+      <h1>🎭 Freshers' After Party 🎭</h1>
+      <p>Unveiling the madness...</p>
+    </div>
+  </div>
+
+  <!-- HERO SECTION -->
+  <div class="hero">
+    <h1>🔥 Freshers’ After Party 2025 🔥</h1>
+    <p class="tagline">🎟 Tickets Live Now 🎟</p>
+    <div id="countdown" class="countdown"></div>
+  </div>
+
+  <!-- PACKAGES SECTION -->
+  <section id="packages" class="packages">
+    <h2>Choose Your Package</h2>
+    <div class="package-grid">
+      <div class="package-card">
+        <h3>✨ Non-Drinks Early Access</h3>
+        <p>Perfect if you just want the vibe, food & music!<br> Unlimited starters, soft drinks + dinner + dessert</p>
+        <button class="book-btn" onclick="revealPrice(this, 1399)">Book Now</button>
+        <p class="price hidden"></p>
+        <button class="pay-btn hidden" onclick="goToPayment()">Go to Payment</button>
+      </div>
+      <div class="package-card">
+        <h3>🍹 Drinks Early Access</h3>
+        <p>“More cheers, more vibes, more memories.”<br> Drinks + Unlimited starters, soft drinks + dinner + dessert</p>
+        <button class="book-btn" onclick="revealPrice(this, 1699)">Book Now</button>
+        <p class="price hidden"></p>
+        <button class="pay-btn hidden" onclick="goToPayment()">Go to Payment</button>
+      </div>
+      <div class="package-card">
+        <h3>❤️ Couple (With Drinks)</h3>
+        <p>“Two glasses, one night, endless memories.”<br> Drinks + unlimited starters, soft drinks + dinner + dessert</p>
+        <button class="book-btn" onclick="revealPrice(this, 3499)">Book Now</button>
+        <p class="price hidden"></p>
+        <button class="pay-btn hidden" onclick="goToPayment()">Go to Payment</button>
+      </div>
+      <div class="package-card">
+        <h3>💫 Couple (No Drinks)</h3>
+        <p>“Love doesn’t need mixers – just music and magic.”<br> Unlimited starters, soft drinks + dinner + dessert</p>
+        <button class="book-btn" onclick="revealPrice(this, 2899)">Book Now</button>
+        <p class="price hidden"></p>
+        <button class="pay-btn hidden" onclick="goToPayment()">Go to Payment</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>✨ Organized exclusively for freshers ✨</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
